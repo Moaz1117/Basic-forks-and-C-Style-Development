@@ -1,0 +1,25 @@
+Theoretical Answers:
+
+- Write the code examples you have seen in Lab-5. Explain each one
+and what it does?
+
+Ex1: 
+This program demonstrates process creation using the fork() system call in Linux, When the program reaches fork(), the operating system makes a copy of the running program. Now you have two processes: a parent and a child.
+In the child process, fork() returns 0 and in the parent process, fork() returns the child’s PID. And then the system prints both with their respectful pids.
+
+Ex2:
+The & Operator in Linux when used in the end of the statement runs the process in the background and jobs lists running background processes.
+
+Ex3:
+ps aux lists all running processes in the system and the | operator does pipeleing so you can use the output of your first command as an input to your second and grep searches for a specific word.
+kill stops a process.
+
+Ex4:
+Kill -STOP pauses a process and kill -CONT contiues it.
+
+Ex5:
+gcc file1.c file2.c -o output_program compiles the both files and links them putting both in a single file output_program.
+./output_program runs the program.
+
+Ex6:
+ldd simple_program shows the shared libraries that the executable is linked to at build time.
