@@ -23,3 +23,10 @@ gcc file1.c file2.c -o output_program compiles the both files and links them put
 
 Ex6:
 ldd simple_program shows the shared libraries that the executable is linked to at build time.
+
+
+-What is the job of a Linker?
+The linkers job is to combine compiled code and libraries into a one working executable to resolve all references between them.
+
+-What is the job of a Loader?
+The loaders job is to take an executable from disk, put it in memory and start it running.
